@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
+// Using jpa we can directly map our entity class to database and no need to write sql queries
 @Repository
 public class CourseJdbcRepository {
     @Autowired
